@@ -37,15 +37,10 @@ export default function PrivacyPolicy() {
         <p className="mb-6">By using our application, you consent to this privacy policy.</p>
         
         <h2 className="text-2xl font-bold mt-8 mb-4">Contact Information</h2>
-        <p className="mb-6">If you have questions regarding this Privacy Policy or would like to inquire about Well Read, please contact us at:</p>
+        <p className="mb-6">If you have questions regarding this Privacy Policy or would like to inquire about Well Read, please contact us at: Contact@well-read.io</p>
         
         <div className="mt-12 mb-8">
-          <a 
-            href="/" 
-            className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-colors"
-          >
-            Back to Home
-          </a>
+          <a href="/well-read-website" className="text-primary hover:text-primary-dark">← Back to Home</a>
         </div>
       </div>
       <Footer />

@@ -105,12 +105,7 @@ export default function TermsAndConditions() {
         <p className="mb-4">If you have any questions about these Terms, please contact us at: Contact@well-read.io</p>
         
         <div className="mt-12 mb-8">
-          <a 
-            href="/" 
-            className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-colors"
-          >
-            Back to Home
-          </a>
+          <a href="/well-read-website" className="text-primary hover:text-primary-dark">← Back to Home</a>
         </div>
       </div>
       <Footer />
