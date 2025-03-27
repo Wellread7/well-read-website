@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -52,8 +53,8 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Legal</h4>
             <ul className="space-y-2">
-              <li><a href="/well-read-website/privacy-policy" className="text-white/70 hover:text-white">Privacy Policy</a></li>
-              <li><a href="/well-read-website/terms-conditions" className="text-white/70 hover:text-white">Terms and Conditions</a></li>
+              <li><Link href="/well-read-website/privacy-policy" className="text-white/70 hover:text-white">Privacy Policy</Link></li>
+              <li><Link href="/well-read-website/terms-conditions" className="text-white/70 hover:text-white">Terms and Conditions</Link></li>
               <li><a href="#" className="text-white/70 hover:text-white">Cookie Policy</a></li>
             </ul>
           </div>
@@ -64,8 +65,8 @@ export default function Footer() {
             <p>&copy; {new Date().getFullYear()} Well Read. All rights reserved.</p>
             <div className="mt-4 md:mt-0 flex items-center space-x-4">
               <p className="mr-4">Designed and developed with ❤️</p>
-              <a href="/well-read-website/privacy-policy" className="text-white/70 hover:text-white underline">Privacy Policy</a>
-              <a href="/well-read-website/terms-conditions" className="text-white/70 hover:text-white underline">Terms and Conditions</a>
+              <Link href="/well-read-website/privacy-policy" className="text-white/70 hover:text-white underline">Privacy Policy</Link>
+              <Link href="/well-read-website/terms-conditions" className="text-white/70 hover:text-white underline">Terms and Conditions</Link>
             </div>
           </div>
         </div>
