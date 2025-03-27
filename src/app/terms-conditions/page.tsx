@@ -106,7 +106,7 @@ export default function TermsAndConditions() {
         <p className="mb-4">If you have any questions about these Terms, please contact us at: Contact@well-read.io</p>
         
         <div className="mt-12 mb-8">
-          <Link href="/well-read-website" className="text-primary hover:text-primary-dark">← Back to Home</Link>
+          <Link href="/" className="text-primary hover:text-primary-dark">← Back to Home</Link>
         </div>
       </div>
       <Footer />
