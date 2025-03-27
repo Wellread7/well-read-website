@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
         <p className="mb-6">If you have questions regarding this Privacy Policy or would like to inquire about Well Read, please contact us at: Contact@well-read.io</p>
         
         <div className="mt-12 mb-8">
-          <Link href="/" className="text-primary hover:text-primary-dark">← Back to Home</Link>
+          <Link href="https://well-read.io" className="text-primary hover:text-primary-dark">← Back to Home</Link>
         </div>
       </div>
       <Footer />

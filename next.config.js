@@ -7,8 +7,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/well-read-website',
-  assetPrefix: '/well-read-website/',
 };
 
 module.exports = nextConfig; 
